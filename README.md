@@ -30,6 +30,12 @@ bundle exec irb -r ./worker.rb
 
 By the you can see the log on the sidekiq running terminal which is Terminal 1 
 
+Console access of the sidekiq 
+
+1. bundle exec rackup 
+
+It'll pickup the filename config.ru. All the configuration related settings are sitting up there. It'll load the
+sidekiq/web which is sidekiq portal sort of thing. 
 
 
 
